@@ -4,12 +4,35 @@ import React, {Component} from 'react';
 //here will give the same name of class as we have file name 
 
 class App extends Component {
+
+    state = {displayBio: false} ;
+
+    toggleDisplayBio = () => {
+        this.setState({ displayBio: !this.state.displayBio });
+    }
+
     render() {
         return (
             <div>
-                <h1>Hello</h1>
-                <p> My name is Ravi, I am software engineer</p>
-                <p> I am looking for the meaningful project</p>
+                <h1>Hello!</h1>
+                <p>My name is Ravi, I am software engineer</p>
+                <p>I am looking forward to work with the meaningful project</p>
+                
+                {
+                    this.state.displayBio ? (
+                        <div>
+                            <p>I live in Mumbai, And code everyday.</p>
+                            <p>My favorite language is java and javascript. Also working with Framework</p>
+                            <p>Beside that I would like to listen music, and play sudoku and chess</p>
+                            <button onClick={this.toggleDisplayBio}>Read Less</button>
+                        </div>                       
+                    ) : (
+                        <div>
+                            <button onClick={this.toggleDisplayBio}>Read More</button>
+                        </div>
+                    )
+                }
+                
             </div>
         )
     }
