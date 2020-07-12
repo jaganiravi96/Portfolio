@@ -8,22 +8,26 @@ const social = [
     {
         id: 1,
         title: 'Email Profile',
-        image: email
+        image: email,
+        link: 'mailto: jaganiravi96@gmail.com'
     },
     {
         id: 2,
         title: 'Github Profile',
-        image: github
+        image: github,
+        link: 'https://github.com/jaganiravi96'
     },
     {
         id: 3,
         title: 'Linkedin Profile',
-        image: linkedin
+        image: linkedin,
+        link: 'https://www.linkedin.com/in/jaganiravi96/'
     },
     {
         id: 4,
         title: 'Twitter Profile',
-        image: twitter
+        image: twitter,
+        link: 'https://twitter.com/jaganiravi96'
     }
 ];
 
