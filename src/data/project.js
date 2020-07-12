@@ -7,21 +7,21 @@ const PROJECTS = [
         id: 1,
         title: 'Example React Application',
         description: 'A React App that I built, involving JS and core web dev concepts!',
-        link: 'https://github.com/15Dkatz/example',
+        link: 'https://github.com/jaganiravi96/Portfolio',
         image: project1
     },
     {
         id: 2,
-        title: 'My API',
-        description: 'A REST API that I built from scratch with GET and POST requests!',
-        link: 'https://github.com/15Dkatz/example',
+        title: 'Ping game',
+        description: 'Dice rolling game, making use of DOM and javascript basics to create an interactive game',
+        link: 'https://github.com/jaganiravi96/Pig_Game',
         image: project2
     },
     {
         id: 3,
-        title: 'Operating Systems Final Project',
-        description: 'My unique final project for my university Operating Systems course.',
-        link: 'https://github.com/15Dkatz/example',
+        title: 'Image processing',
+        description: 'Web Page which can convert the image by reading RGB color value',
+        link: 'https://github.com/jaganiravi96/Image_Processing_with_Multithreading',
         image: project3
     }
 ];
